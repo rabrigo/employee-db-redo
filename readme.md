@@ -2,6 +2,8 @@
 
 Click the GIF to watch a video on the installation and use of Employee Tracker:
 
+![animation of employee tracker in action](./images/preview.gif)
+
 <details>
 <summary>Table of Contents</summary>
   <ol>
