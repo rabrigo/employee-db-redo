@@ -2,7 +2,7 @@
 
 Click the GIF to watch a video on the installation and use of Employee Tracker:
 
-![animation of employee tracker in action](https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/42027f2b-76e0-449b-b623-36fdd7be4eb9.gif?ClientID=vimeo-core-prod&Date=1646805837&Signature=7f1c80b59bf567bebfe283d3ca41841d366fa359)
+![animation of employee tracker in action](./images/preview.gif)
 
 <details>
 <summary>Table of Contents</summary>
