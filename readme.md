@@ -1,8 +1,8 @@
 ### About Employee Tracker
 
-Click the GIF to watch a video on the installation and use (no audio) of Employee Tracker:
+Click the GIF to watch a video on the installation and use of Employee Tracker:
 
-[![./images/preview.gif](https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/a4c3dae5-874f-4806-8d3c-5436b75e2680.gif?ClientID=vimeo-core-prod&Date=1643678177&Signature=4d8d58e4f2d3f7a8937d71c0199c72d4f170f84a)](https://vimeo.com/673034450/650fcbd99f)
+![animation of employee tracker in action](https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/42027f2b-76e0-449b-b623-36fdd7be4eb9.gif?ClientID=vimeo-core-prod&Date=1646805837&Signature=7f1c80b59bf567bebfe283d3ca41841d366fa359)
 
 <details>
 <summary>Table of Contents</summary>
@@ -17,15 +17,15 @@ Click the GIF to watch a video on the installation and use (no audio) of Employe
 
 ## Description
 
-Employee Tracker allows you to access an employee database and view various tables within it.
+Employee Tracker allows you to access an employee database, view various tables within it, and add departments and roles.
 
 ## Built With
 
-This application was built with MySQL2, Inquirer, and JavaScript.
+This application was built with MySQL2, Inquirer, NodeJS, and JavaScript.
 
 ## Installation
 
-Node.js installation is required. After cloning this repository, open the folder containing the server.js file in your command line application. Then run 'npm i'. This will install inquirer and mysql2.
+Node.js installation is required. After cloning this repository, open the folder containing the server.js file in your command line application. Then run `npm i`. This will install inquirer and mysql2.
 
 ![screenshot](./images/screen1.png)
 
@@ -49,12 +49,22 @@ After quitting MySQL, run the command line 'node server.js'. You will see a mess
 
 ![screenshot](./images/screen5.png)
 
+You can also add a department of your choosing. Select the 'Add Department' option and provide a response. That should now show up when doing 'View Departments'.
+
+![screenshot](./images/screen6.png)
+
+You can also add a role. Choosing this option will ask for a role title, department, and salary.
+
+![screenshot](./images/screen7.png)
+
+You can see the newly added role with the newly added department (Design with the department_id 5) when we 'View Roles'.
+
+![screenshot](./images/screen8.png)
+
 ## Future Updates
 
 <ul>
-  <li>Add, remove, and update values within the tables</li>
-  <li>Join tables so certain id's are represented by their specific values</li>
-  <li>Implement Express</li>
-  <li>Use environment variable</li>
+  <li>'Add Employee' option</li>
+  <li>Update manager ID's to include their names</li>
 </ul>
 
